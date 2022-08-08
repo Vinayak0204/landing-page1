@@ -19,6 +19,8 @@ button {
     color: #F9FAF8;
     border: none;
     font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
     padding:10px;
     margin: 4px 2px;
     border-radius: 8px;
@@ -48,6 +50,8 @@ button {
 
 .linkclass,.subheadline,.section4 {
     font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300x;
     color: #E5E7EB;
     padding: 5px;
 }
@@ -59,7 +63,8 @@ button {
 
 .mainheadline {
     font-size: 48px;
-    font-weight:bolder;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -73,15 +78,16 @@ button {
 }
 .hlogo {
     font-size: 24px;
+    font-family: 'Roboto Slab', serif;
     color: #F9FAF8;
     padding-top: 5px;
 }
 
-.body1, .body2, .body3 {
+.body1, .body2, .body3, .body4{
     display: flex;
 }
 
-.body1 div, .body2 div, .body3 div{
+.body1 div, .body2 div, .body3 div, .body4 div{
     display: flex;
 }
 
@@ -89,7 +95,7 @@ button {
     flex: 1 1 10%;
 }
 
-.sometext, .body2inner, .quotebox,.calltoaction{
+.sometext, .body2inner, .quotebox,.calltoaction, .copyrighttext{
 
     display:flex;
     align-items: center;
@@ -101,6 +107,13 @@ button {
     display: flex;
     height: 300px;
 }
+.copyrighttext {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;    
+    height: 60px;
+    font-family: 'Roboto Slab', serif;
+}
 .sometext div{
     display:flex;
     flex-wrap: wrap;
@@ -109,6 +122,7 @@ button {
     justify-content: center;
     font-size : 36px ;
     font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
     color: #1F2937;
     padding-top: 20px;
 }
@@ -142,6 +156,8 @@ button {
     flex: 1;
     justify-content: center;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: small;
 
 }
 .block1 {
@@ -178,10 +194,11 @@ button {
     flex:1;
     height:auto;
     width: 800px;
-    font-weight: lighter;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
+    font-family: 'Roboto Slab', serif;
 }
 
 .author{
@@ -190,7 +207,8 @@ button {
     flex:1;
     height:auto;
     width:800px;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
     font-size: 18px;
     font-style: italic;
     color: #1F2937;
@@ -214,6 +232,7 @@ button {
     flex:1;
     font-size: 24px;
     color: #F9FAF8;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     text-align: left;
 }
@@ -222,6 +241,8 @@ button {
     padding-bottom: 15px;
     flex:1;
     font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
     color: #F9FAF8;
     text-align: left;
 }
@@ -239,4 +260,8 @@ button {
     border-radius: 8px;
     height: fit-content;
     background: #3882F6
+}
+.emptyspacedg {
+    flex: 1 1 10%;
+    background-color: #1F2937;
 }
